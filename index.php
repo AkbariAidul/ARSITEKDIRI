@@ -127,7 +127,7 @@ $username = $_SESSION['username'] ?? 'Tamu';
                         </div>
                     </div>
                     <div class="flex justify-center">
-                        <img src="assets/cover.jpg" alt="Sampul Buku Level Up atau Tertinggal" class="book-cover rounded-lg w-3/4 md:w-full max-w-sm">
+                        <img src="assets/cover.png" alt="Sampul Buku Level Up atau Tertinggal" class="book-cover rounded-lg w-3/4 md:w-full max-w-sm">
                     </div>
                 </div>
             </div>
