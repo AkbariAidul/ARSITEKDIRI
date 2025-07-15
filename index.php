@@ -94,6 +94,7 @@ $username = $_SESSION['username'] ?? 'Tamu';
             <div class="hidden md:flex items-center space-x-4">
                  <?php if ($is_logged_in): ?>
                     <a href="library.php" class="btn-primary px-5 py-3 rounded-full text-sm font-medium">Perpustakaan Saya</a>
+                    <span class="text-sm text-gray-600 hidden sm:block">Halo, <?php echo htmlspecialchars($_SESSION['username']); ?>!</span>
                     <a href="logout.php" class="text-sm font-medium text-gray-500 hover:text-black">Logout</a>
                 <?php else: ?>
                     <a href="login.php" class="text-sm font-medium text-gray-700 hover:text-black">Login</a>

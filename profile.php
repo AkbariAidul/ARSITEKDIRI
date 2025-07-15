@@ -9,6 +9,9 @@ $username = $_SESSION['username'] ?? 'Tamu';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami - Arsitek Diri</title>
+
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
@@ -58,6 +61,7 @@ $username = $_SESSION['username'] ?? 'Tamu';
             <div class="hidden md:flex items-center space-x-4">
                  <?php if ($is_logged_in): ?>
                     <a href="library.php" class="btn-primary px-5 py-3 rounded-full text-sm font-medium">Perpustakaan Saya</a>
+                    <span class="text-sm text-gray-600 hidden sm:block">Halo, <?php echo htmlspecialchars($_SESSION['username']); ?>!</span>
                     <a href="logout.php" class="text-sm font-medium text-gray-500 hover:text-black">Logout</a>
                 <?php else: ?>
                     <a href="login.php" class="text-sm font-medium text-gray-700 hover:text-black">Login</a>

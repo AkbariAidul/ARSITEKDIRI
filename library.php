@@ -15,6 +15,9 @@ if (!isset($_SESSION["user_id"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perpustakaan Anda - Arsitek Diri</title>
+
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
@@ -84,7 +87,7 @@ if (!isset($_SESSION["user_id"])) {
                         <img src="assets/cover.jpg" alt="Sampul Level Up atau Tertinggal" class="rounded-md w-full shadow-md">
                         <div class="mt-6 flex-grow">
                             <h3 class="font-serif text-2xl font-bold text-[#283618]">Level Up atau Tertinggal</h3>
-                            <p class="text-sm text-gray-500 mt-1">Oleh: Rida K. & Riska K.</p>
+                            <p class="text-sm text-gray-500 mt-1">Oleh: Aidul Akbari & Mislaini</p>
                         </div>
                         
                         <div class="mt-6 space-y-3">
